@@ -42,23 +42,39 @@
 	}
 a:hover, a:focus{text-decoration: none !important;
 }
- #seeall button {
-    background-color: #54bbaa;
+ #banner button {
+    background-color: #124559;
     width: auto;
-    max-width: 100%;padding: 0 25px;
-    height: 46px;
+    max-width: 100%;
+    padding: 0 25px;
+    min-height: 46px;
     border: none;
     font-family: 'Work Sans', sans-serif;
     font-size: 18px;
     font-weight: 600;
     color: #fff;
-    text-transform: uppercase;
+    margin-top: 10px;
 }
- #seeall button:hover{background-color: #124559;-moz-transition: all 3s ease-in;/* WebKit */-webkit-transition: all 0.5s ease-in;
+ #banner button:hover{background-color: #54bbaa;-moz-transition: all 3s ease-in;/* WebKit */-webkit-transition: all 0.5s ease-in;
 /* Opera */-o-transition: all 0.5s ease-in;/* Standard */transition: all 0.5s ease-in;}
 
 
 #g2 h3{font-size: 14px}
+
+#sec-box, #form-section {
+  position: relative;
+  z-index: 2;
+}
+#form-section .slanted-bottom{
+  background-color: #f9b348;
+}
+#form-section .triangle{
+  right: 0;
+  left:unset;
+  width: 360px;
+  height: auto;
+  max-width: 60%;
+}
 </style>
 
 <script>
@@ -188,6 +204,10 @@ rtp('get', 'campaign',true);
     provide you with un-biased perspectives, and help you
     through the selection process.
   </span>
+  <span>
+    <a href="#form-section"><button type="Learn More">Register for FREE Consultation Session</button></a>
+  </span>
+  
 </div>
 <div class="col-md-4">
 <div class="image"><img src="images/rfp-graphic.png" alt="RFP help picking the perfect marketing automation platform?"/></div>
@@ -309,7 +329,7 @@ font-weight: 300;">Navigating the pros and cons of each platform can be a daunti
 </section>
 	
 	
-<section style="background-color: #f9b348;">
+<section style="background-color: #f9b348;" id="form-section">
 	<div class="container">
 	<div class="row">
 		<div style="padding-top: 50px; width: 80%; margin: 0 auto; text-align: center;">
@@ -325,6 +345,15 @@ line-height: 30px;">Sign me up for my 1h FREE Consultation Session</span></div>
 		</div>
 </div>
 	</div>
+
+  <div class="slanted-bottom">
+    <div class="inner-div">
+ 
+    <svg class="triangle" viewBox="0 0 600 130" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+      <polygon id="XMLID_2_" fill="#E46231" fill-rule="nonzero" transform="translate(300.000000, 65.000000) scale(-1, 1) translate(-300.000000, -65.000000) " points="0 0 600 130 0 130"></polygon>
+    </svg>
+</div>
+    </div>
 </section>
 <section id="footer">
 <div class="container">
