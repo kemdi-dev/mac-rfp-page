@@ -215,6 +215,7 @@ left: 120px;  margin: 10px auto;  position: absolute; }*/
   display: inline-block;
   width: 100%;
   padding: 20px 0;
+  padding-bottom: 50px;
 }
 #sec-box .common-heading h2,
 #sec-box1 .common-heading h2 {
